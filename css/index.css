@@ -1,0 +1,75 @@
+body {
+    background-color: yellow;
+}
+* {
+    margin: 0 ;
+    padding: 0;
+}
+.cat-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+.cat-container > a{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-basis: 50%;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    width: 25%;
+    height: 50px;
+    border: 2px solid black;
+}
+.joke-container {
+    font-size: 2rem;
+    padding: 1rem 1rem .4rem 1rem    ;
+    /* margin: 0 auto; */
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-container {
+    /* flex-basis: 50%; */
+}
+.img-container > img{
+    width: 100%;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0 2% 0 4%;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.joke-container > h2 {
+    align-self: center;
+}
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#theJokeEl {
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Helvetica, sans-serif;
+}
+
+#punchline {
+    /* font-weight: 800; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Helvetica, sans-serif;
+}
